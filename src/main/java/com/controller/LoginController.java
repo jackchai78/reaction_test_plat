@@ -26,7 +26,7 @@ public class LoginController {
     public String Starttest(HttpSession session, @Param("account") String account,@Param("password") String password){
         System.out.println(account);
         System.out.println( userLogDaoService.GetInfoByacoount(account).getPassword());
-        System.out.println("yes");
+        System.out.println("master修改");
         return "true";
     }
 
