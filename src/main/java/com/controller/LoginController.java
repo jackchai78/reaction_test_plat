@@ -26,7 +26,8 @@ public class LoginController {
     public String Starttest(HttpSession session, @Param("account") String account,@Param("password") String password){
         System.out.println(account);
         System.out.println( userLogDaoService.GetInfoByacoount(account).getPassword());
-        return "false";
+        System.out.println("yes");
+        return "true";
     }
 
 }
