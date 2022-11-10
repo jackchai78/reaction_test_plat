@@ -27,7 +27,8 @@ public class LoginController {
         System.out.println(account);
         System.out.println( userLogDaoService.GetInfoByacoount(account).getPassword());
         System.out.println("master修改");
-        return "true";
+        System.out.println("branch1分支修改");
+        return "false";
     }
 
 }
